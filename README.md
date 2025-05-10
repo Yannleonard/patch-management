@@ -1,23 +1,24 @@
 # Patch-Management
+# Cr√©ation by Yann LEONARD "Gtek-it.fr"
 ## Description
-Application de gestion distante des serveurs (Windows/Linux) avec surveillance, exÈcution de commandes et interface web.
+Application de gestion distante des serveurs (Windows/Linux) avec surveillance, ex√©cution de commandes et interface web.
 
-## Technologies utilisÈes
+## Technologies utilis√©es
 - **Backend** : Python (Flask)
 - **Frontend** : React
-- **Base de donnÈes** : PostgreSQL
+- **Base de donn√©es** : PostgreSQL
 - **Conteneurisation** : Docker
 
-## DÈmarrage local
-1. Clonez le dÈpÙt
-2. Assurez-vous que Docker et Docker Compose sont installÈs
-3. ExÈcutez `docker-compose up --build`
-4. AccÈdez ‡ l'application via http://localhost
+## D√©marrage local
+1. Clonez le d√©p√¥t
+2. Assurez-vous que Docker et Docker Compose sont install√©s
+3. Ex√©cutez `docker-compose up --build`
+4. Acc√©dez √† l'application via http://localhost
 
 ## Structure du projet
 - `/backend` : API Flask
 - `/frontend` : Application React
-- `/db` : Scripts et migrations de base de donnÈes
+- `/db` : Scripts et migrations de base de donn√©es
 
 ## Configuration
 Modifiez le fichier `.env` pour configurer les variables d'environnement.
